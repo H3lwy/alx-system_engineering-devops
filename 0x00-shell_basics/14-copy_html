@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -newer ../*.html | xargs -I {} cp -v {} ../
+cp -un *.html ../
